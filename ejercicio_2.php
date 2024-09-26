@@ -6,6 +6,7 @@
     */
     $month = "abril";
     $year = "2024";
+    $numdays = 0;
 
     switch ($month) {
         case "enero":
@@ -15,21 +16,23 @@
         case "agosto":
         case "octubre":
         case "diciembre":
-            echo "$month tiene 31 días";
+            $numdays = 31;
             break;
         case "abril":
         case "junio":
         case "septiembre":
         case "noviembre":
-            echo "$month tiene 30 días";
+            $numdays = 30;
             break;
         case "febrero":
             if ((($year % 4 == 0) && ($year % 100 != 0)) or ($year % 400 == 0)) {
-                echo "$month tiene 29 días";
+                $numdays = 29;
             }
             else {
-                echo "$month tiene 28 días";
+                $numdays = 28;
             }
             break;
     }
+
+    echo "$month tiene $numdays días";
 ?>
