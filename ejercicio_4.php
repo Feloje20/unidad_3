@@ -63,11 +63,18 @@
             width: 35vw; 
             height: 25vw;
         }
+
+        .ver_codigo {
+            margin-top: 50px;
+        }
     </style>
 </head>
 <body>
     <header>
         <img width="100%" height="720" src=<?php echo $img_code ?>>
     </header>
+    <div class="ver_codigo">
+        <button type="button"><a href="https://github.com/Feloje20/unidad_3/blob/main/ejercicio_4.php">Ver código</a></button>
+    </div>   
 </body>
 </html>

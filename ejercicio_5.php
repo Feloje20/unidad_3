@@ -18,6 +18,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercio 5 php</title>
+    <style>
+        .ver_codigo {
+            margin-top: 50px;
+        }
+    </style>
 </head>
 <body>
     <?php if ($user_profile == "user"): ?>
@@ -31,5 +36,8 @@
         <a href="#">Página 3</a>
         <a href="#">Página 4</a>
     <?php endif; ?>
+    <div class="ver_codigo">
+        <button type="button"><a href="https://github.com/Feloje20/unidad_3/blob/main/ejercicio_5.php">Ver código</a></button>
+    </div>   
 </body>
 </html>
