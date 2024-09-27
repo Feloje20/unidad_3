@@ -5,12 +5,11 @@
     @date 
     */
 
-    // Adquirimos la zona horaria del servidor y lo pasamos a una variable de fecha.
-    $timezone = date_default_timezone_get(); 
-    $today_date = date_create(date('Y-m-d H:i:s'));
+    // Adquirimos la fecha de nuestro dispositivo y la asignamos en una variable.
+    $today_date = new DateTime();
     
     // Variablede fecha de nacimiento
-    $birth_date = date_create('2000-08-04 00:00:00');
+    $birth_date = new DateTime('2001-08-04 00:00:00');
 
     // Calculamos la diferencia entre la fecha actual y la de nacimiento
     // date_diff devuelve un objeto DateInterval. 
