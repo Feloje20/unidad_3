@@ -5,26 +5,46 @@
     @date 
     */
 
-    $a = 1;
-    $b = 2;
-    $c = 3;
+    $a = 20;
+    $b = 10;
+    $c = 30;
 
-    if ($a >= $b >= $c) {
+    echo "a: " . $a . " b: " . $b . " c: " . $c . "\n";
+    if ($a >= $b && $b >= $c) {
         echo "$a, $b, $c";
-    }
-    else if ($a >= $c >= $b){
-        echo "$a, $b, $c";
-    }
-    else if ($b >= $a >= $c){
+    } 
+    elseif ($a >= $c && $c >= $b) {
+        echo "$a, $c, $b";
+    } 
+    elseif ($b >= $a && $a >= $c) {
         echo "$b, $a, $c";
-    }
-    else if ($b >= $c >= $a){
+    } 
+    elseif ($b >= $c && $c >= $a) {
         echo "$b, $c, $a";
-    }
-    else if ($c >= $b >= $a){
+    } 
+    elseif ($c >= $b && $b >= $a) {
         echo "$c, $b, $a";
-    }
+    } 
     else {
         echo "$c, $a, $b";
     }
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercio 1 php</title>
+    <style>
+        .ver_codigo {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ver_codigo">
+        <button type="button"><a href="https://github.com/Feloje20/unidad_3/blob/main/ejercicio_1.php">Ver código</a></button>
+    </div>   
+</body>
+</html>
