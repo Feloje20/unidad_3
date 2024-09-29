@@ -74,7 +74,7 @@
         <img width="100%" height="720" src=<?php echo $img_code ?>>
     </header>
     <div class="ver_codigo">
-        <button type="button"><a href="https://github.com/Feloje20/unidad_3/blob/main/ejercicio_4.php">Ver código</a></button>
+        <button type="button"><a href="https://github.com/Feloje20/unidad_3/blob/main/condicionales/ejercicio_4.php">Ver código</a></button>
     </div>   
 </body>
 </html>

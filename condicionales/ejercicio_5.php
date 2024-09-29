@@ -37,7 +37,7 @@
         <a href="#">Página 4</a>
     <?php endif; ?>
     <div class="ver_codigo">
-        <button type="button"><a href="https://github.com/Feloje20/unidad_3/blob/main/ejercicio_5.php">Ver código</a></button>
+        <button type="button"><a href="https://github.com/Feloje20/unidad_3/blob/main/condicionales/ejercicio_5.php">Ver código</a></button>
     </div>   
 </body>
 </html>

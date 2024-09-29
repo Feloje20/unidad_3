@@ -51,7 +51,7 @@
 </head>
 <body>
     <div class="ver_codigo">
-        <button type="button"><a href="https://github.com/Feloje20/unidad_3/blob/main/ejercicio_2.php">Ver código</a></button>
+        <button type="button"><a href="https://github.com/Feloje20/unidad_3/blob/main/condicionales/ejercicio_2.php">Ver código</a></button>
     </div>   
 </body>
 </html>
