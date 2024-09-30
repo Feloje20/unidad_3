@@ -1,8 +1,8 @@
 <?php
     /**
     * 1. Escribir los números del 1 al 10.
-    @autor = Jesús Ferrer López
-    @date 
+    * @autor = Jesús Ferrer López
+    * @date = 29/09/2024
     */
 
     for ($i = 1; $i <= 10; $i++) {

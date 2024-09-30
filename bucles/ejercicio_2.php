@@ -1,8 +1,8 @@
 <?php
     /**
     * 2. Sumar los tres primeros números pares.
-    @autor = Jesús Ferrer López
-    @date 
+    * @autor = Jesús Ferrer López
+    * @date = 29/09/2024
     */
 
     $cantidad_pares = 0;    // La cantidad de números pares que se lleva en ese momento.

@@ -1,8 +1,8 @@
 <?php
     /**
     * 3. Tablas de multiplicar del 1 al 10. Aplicar estilos en filas/columnas.
-    @autor = Jesús Ferrer López
-    @date 
+    * @autor = Jesús Ferrer López
+    * @date = 29/09/2024
     */
 ?>
 
