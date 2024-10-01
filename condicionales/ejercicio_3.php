@@ -1,8 +1,8 @@
 <?php
     /**
     * 3. Carga la fecha de nacimiento en variables y calcula la edad.
-    @autor = Jesús Ferrer López
-    @date 
+    * @autor = Jesús Ferrer López
+    * @date = 27/09/2024
     */
 
     // Adquirimos la fecha de nuestro dispositivo y la asignamos en una variable.

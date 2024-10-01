@@ -1,8 +1,8 @@
 <?php
     /**
     * 1. Funcionalidad: Comparar tres números y mostrarlos por pantalla en orden.
-    @autor = Jesús Ferrer López
-    @date 
+    * @autor = Jesús Ferrer López
+    * @date = 27/09/2024
     */
 
     $a = 10;

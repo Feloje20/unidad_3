@@ -3,8 +3,8 @@
     * 5. Script que muestre una lista de enlaces en función del perfil de usuario:
     *    Perfil Administrador: Pagina1, Pagina2, Pagina3, Pagina4
     *    Perfil Usuario: Pagina1, Pagina2
-    @autor = Jesús Ferrer López
-    @date 
+    * @autor = Jesús Ferrer López
+    * @date = 27/09/2024
     */
 
     // Variable que almacena el perfil de usuario actual

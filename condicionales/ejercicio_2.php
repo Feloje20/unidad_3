@@ -1,8 +1,8 @@
 <?php
     /**
     * 2. Funcionalidad: Carga en variables mes y año e indica el número de días del mes.
-    @autor = Jesús Ferrer López
-    @date 
+    * @autor = Jesús Ferrer López
+    * @date = 27/09/2024
     */
     $month = "abril";
     $year = "2024";
