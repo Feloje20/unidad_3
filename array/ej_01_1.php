@@ -4,6 +4,8 @@
 * @author Jesús Ferrer López
 * @date 02/10/2024
 */
+// Cadena de texto que almacena los días de un mes que tenga más de uno (Febrero)
+$dias_mes = "";
 
 $meses = array(
     "Enero" => 31,
@@ -21,14 +23,16 @@ $meses = array(
 );
 
 foreach ($meses as $clave=>$valor) {
-    if ($clave === "Febrero") {
-	echo "$clave tiene $valor[0] o $valor[1] días <br>";
+    if (is_array($valor)) {
+        foreach ($valor as $dia) {
+            $dias_mes = $dias_mes . strval($dia) . ",";
+        }
+        echo "$clave puede tener $dias_mes dias <br>";
     }
     else {
 	echo "$clave tiene $valor dias <br>";
-    }
+    } 
 };
-
 ?>
 
 <!DOCTYPE html>
@@ -36,7 +40,7 @@ foreach ($meses as $clave=>$valor) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercio 1 php</title>
+    <title>Ejercio 1.1 php</title>
     <style>
         .ver_codigo {
             margin-top: 50px;
