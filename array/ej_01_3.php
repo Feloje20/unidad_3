@@ -47,7 +47,7 @@ $alumnos_nota_dwes = array (
         ?>
     </table>
     <div class="ver_codigo">
-        <button type="button"><a href="">Ver código</a></button>
+        <button type="button"><a href="https://github.com/Feloje20/unidad_3/blob/main/array/ej_01_3.php">Ver código</a></button>
     </div>   
 </body>
 </html>

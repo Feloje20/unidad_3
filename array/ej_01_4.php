@@ -7,20 +7,10 @@
 
 // Inicializamos el array
 $irrverb_ingles = [
-    ["arise", "arose", "arisen"],
-    ["awake", "awoke", "awoken"],
-    ["be", "was/were", "been"],
-    ["bear", "bore", "born"],
-    ["beat", "beat", "beaten"],
-    ["become", "became", "become"],
-    ["begin", "began", "begun"],
-    ["bend", "bent", "bent"],
-    ["bet", "bet", "bet"],
-    ["bid", "bid", "bid"],
-    ["bind", "bound", "bound"],
-    ["bite", "bit", "bitten"],
-    ["bleed", "bled", "bled"],
-    ["blow", "blew", "blown"]
+    "be" => ["past" => "was/were","participle" => "been"],
+    "read" => ["past" => "red","participle" => "red"],
+    "become" => ["past" => "became","participle" => "become"],
+    "break" => ["past" => "broke","participle" => "broken"],
 ];
 
 ?>
@@ -38,8 +28,22 @@ $irrverb_ingles = [
     </style>
 </head>
 <body>
+    <table border="1">
+        <th>Verbo</th>
+        <th>Pasado</th>
+        <th>Participio</th>
+        <?php
+            foreach ($irrverb_ingles as $verbo => $tiempos) {
+                echo "<tr>";
+                echo "<td>" . $verbo . "</td>";
+                echo "<td>" . $tiempos["past"] . "</td>";
+                echo "<td>" . $tiempos["participle"] . "</td>";
+                echo "</tr>";
+            }
+        ?>
+    </table>
     <div class="ver_codigo">
-        <button type="button"><a href="">Ver código</a></button>
+        <button type="button"><a href="https://github.com/Feloje20/unidad_3/blob/main/array/ej_01_4.php">Ver código</a></button>
     </div>   
 </body>
 </html>

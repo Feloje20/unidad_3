@@ -49,7 +49,7 @@ foreach ($meses as $clave=>$valor) {
 </head>
 <body>
     <div class="ver_codigo">
-        <button type="button"><a href="">Ver código</a></button>
+        <button type="button"><a href="https://github.com/Feloje20/unidad_3/blob/main/array/ej_01_1.php">Ver código</a></button>
     </div>   
 </body>
 </html>
