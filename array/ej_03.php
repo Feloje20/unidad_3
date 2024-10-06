@@ -47,3 +47,17 @@
     echo "<h1>$alumno</h1>";
     echo "<img src='$foto' alt='Foto de $alumno' width='200px' height='200px'>";
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej 3 array</title>
+</head>
+<body>
+    <div class="ver_codigo">
+        <button type="button"><a href="https://github.com/Feloje20/unidad_3/blob/main/array/ej_03.php">Ver código</a></button>
+    </div>   
+</body>
+</html>

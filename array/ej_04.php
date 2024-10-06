@@ -58,16 +58,9 @@
                 }
             }
         }
-        /*
-        foreach ($platos as $tipo => $plato) {
-            echo "<h2>$tipo</h2>";
-            foreach ($plato as $nombre => $datos) {
-                echo "<h3>$nombre</h3>";
-                echo "<p>Precio: $datos[0]€</p>";
-                echo "<img src='$datos[1]' alt='Foto de $nombre' width='200px' height='200px'>";
-            }
-        }
-        */
     ?>
+    <div class="ver_codigo">
+        <button type="button"><a href="https://github.com/Feloje20/unidad_3/blob/main/array/ej_04.php">Ver código</a></button>
+    </div>   
 </body>
 </html>
