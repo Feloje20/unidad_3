@@ -86,5 +86,8 @@
                 }
         ?>
     </form>
+    <div class="ver_codigo">
+        <button type="button"><a href="https://github.com/Feloje20/unidad_3/blob/main/formularios/ej_05.php">Ver código</a></button>
+    </div>   
 </body>
 </html>
