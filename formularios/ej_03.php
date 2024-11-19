@@ -24,7 +24,9 @@
         $email = $_POST["email"];
         $curso = $_POST["curso"];
         $idioma = $_POST["idiomas"];
-        $buscaTrabajo = $_POST["buscaTrabajo"];
+        if (isset($_POST["buscaTrabajo"])) {
+            $buscaTrabajo = $_POST["buscaTrabajo"];
+        }
         $lenguaje = $_POST["lenguaje_fav"];
 
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
